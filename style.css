@@ -1,0 +1,73 @@
+.img{
+    width: 120px;
+    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.header>ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.header>ul>li{
+
+    margin-left: 50px;
+    padding: 10px;
+    list-style-type: none;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px ;
+    height: 300px;
+    width: 200px;
+    /* border-radius: 10; */
+    background-color: rgb(105, 139, 139);
+    color:black;
+    text-align: center;
+}
+.body:hover{
+    cursor: pointer;
+    border: 1px solid black
+}
+
+.body-img{
+    
+    margin-left: 35px;
+    height: 150px;
+    /* width: 192px; */
+}
+.Bodyy{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.card-details{
+    font: 1em sans-serif;
+    font-size: small;
+    /* height: 50px; */
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.filter-Btn{
+    margin: 5px;
+    cursor:pointer
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-Cards{
+    margin:20px;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(142, 154, 165);
+}
